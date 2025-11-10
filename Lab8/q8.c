@@ -9,7 +9,7 @@ int main()
     int maxCity = 0, minCity = 0;
     float maxW = 0, minW = 999;
 
-    printf("Enter data for 3 cities, 7 days and  3 times per day:\n");
+    printf("Enter the data for 3 cities, 7 days and  3 times per day:\n");
     for (i = 0; i < 3; i++)
     {
         printf("City %d:\n", i + 1);

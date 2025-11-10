@@ -5,7 +5,7 @@ int main()
     int marks[5][5];
     int i, j;
     int total[5] = {0};
-    float average[5];
+    float avg[5];
     int maxStudent = 0, minStudent = 0;
     int maxTotal = marks[0][0], minTotal = marks[0][0];
 
@@ -24,8 +24,8 @@ int main()
     printf("\n--------------Total and Average Marks----------------\n");
     for (i = 0; i < 5; i++)
     {
-        average[i] = total[i] / 5.0;
-        printf("Student %d: Total = %d, Average = %.2f\n", i + 1, total[i], average[i]);
+        avg[i] = total[i] / 5.0;
+        printf("Student %d: Total = %d, Average = %.2f\n", i + 1, total[i], avg[i]);
     }
 
     maxTotal = total[0];
